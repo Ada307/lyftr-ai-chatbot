@@ -193,7 +193,7 @@ try {
 
 ---
 
-## Setup Used: your editor and AI tools
+## Setup Used:
 
 - **Operating System**: Windows 11 (64-bit) with PowerShell 7 and GNU Make 4.4.1
 - **IDE / Editor**: Visual Studio Code
@@ -205,7 +205,7 @@ try {
 
 ---
 
-## Bonus features (if any): what you added beyond the requirements and why
+## Bonus features (if any): 
 
 1. **Live Backend Readiness Probe**: Enhanced `GET /health` to verify real SQLite connectivity, confirm $\ge 2$ configured API keys, and test response cache readiness, returning HTTP 503 if any component is degraded.
 2. **Atomic Rollback on Failed Inference**: Integrated database writes exclusively after successful LLM completion inside `save_chat_turn()`. If an upstream failure occurs, no ghost session or orphan user message is created.
