@@ -6,12 +6,10 @@ RelayChat is a resilient, full-stack LLM chat application built with React, Fast
 
 ## Live URLs
 
-> [!NOTE]
-> Live cloud deployments are pending initial review. Official production endpoints will be posted here:
-
-- **Frontend Application**: `Pending deployment (e.g. Vercel)`
-- **Backend API**: `Pending deployment (e.g. Railway)`
-- **Backend Health Check**: `Pending deployment (/health)`
+- **Frontend Application (Vercel)**: [https://lyftr-ai-chatbot-nine.vercel.app](https://lyftr-ai-chatbot-nine.vercel.app)
+- **Backend API (Railway)**: [https://lyftr-ai-chatbot-production-0b264854.up.railway.app](https://lyftr-ai-chatbot-production-0b264854.up.railway.app)
+- **Backend Health Check**: [https://lyftr-ai-chatbot-production-0b264854.up.railway.app/health](https://lyftr-ai-chatbot-production-0b264854.up.railway.app/health)
+- **GitHub Repository**: [https://github.com/Ada307/lyftr-ai-chatbot](https://github.com/Ada307/lyftr-ai-chatbot)
 
 ---
 
@@ -147,6 +145,9 @@ You can verify all core behaviors using the frontend UI or via PowerShell / cURL
 ---
 
 ### 2. PowerShell API Verification Commands
+
+> [!TIP]
+> You can run these commands against local Docker (`http://localhost:8000`) or directly against the live Railway backend (`https://lyftr-ai-chatbot-production-0b264854.up.railway.app`).
 
 #### Baseline Cache Miss (`LIVE_INFERENCE`)
 ```powershell
